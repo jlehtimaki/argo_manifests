@@ -1,0 +1,11 @@
+namePrefix: kustomize-
+
+resources:
+- deployment.yml
+- ingress.yml
+- services.yml
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+images:
+- name: lehtux/argocd
+  newTag: "1.0"
