@@ -8,4 +8,4 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 images:
 - name: lehtux/argocd
-  newTag: d52adb3931856eeb169df360dc3928cf06defae1
+  newTag: d626f258cd4ce8dbdfa5a294b95353a564ef338b
